@@ -1,8 +1,8 @@
 package com.example.Sem9DZTask.controller;
 
-import com.example.Sem5DZ.model.Task;
-import com.example.Sem5DZ.model.TaskStatus;
-import com.example.Sem5DZ.service.TaskService;
+import com.example.Sem9DZTask.model.Task;
+import com.example.Sem9DZTask.model.TaskStatus;
+import com.example.Sem9DZTask.service.TaskService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
