@@ -22,7 +22,7 @@ public class Sem9DzApplication {
 		return builder.routes()
 				.route("Tasks", r->r.path("/tasks/**")
 						.uri("http://localhost:8081/"))
-				.route("Notes", r->r.path("/noteServer/**")
+				.route("Notes", r->r.path("/notes/**")
 						.uri("http://localhost:8082/")).build();
 	}
 }
