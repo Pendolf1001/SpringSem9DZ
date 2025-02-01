@@ -1,0 +1,6 @@
+[submodule "Sem5DZ"]
+	path = Sem5DZ
+	url = .\\Sem5DZ\\
+[submodule "Sem6DZ"]
+	path = Sem6DZ
+	url = .\\Sem6DZ\\
