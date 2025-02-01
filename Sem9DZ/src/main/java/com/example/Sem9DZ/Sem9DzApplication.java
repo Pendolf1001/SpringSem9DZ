@@ -20,7 +20,7 @@ public class Sem9DzApplication {
 	public RouteLocator customeRouteLocator (RouteLocatorBuilder builder)
 	{
 		return builder.routes()
-				.route("Tasks", r->r.path("/tasksServer/**")
+				.route("Tasks", r->r.path("/tasks/**")
 						.uri("http://localhost:8081/"))
 				.route("Notes", r->r.path("/noteServer/**")
 						.uri("http://localhost:8082/")).build();
