@@ -1,0 +1,12 @@
+#spring.application.name=Sem9DZTask
+server:
+  port: 8081
+
+spring:
+  application:
+    name: Tasks
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+      generat-ddl: false
